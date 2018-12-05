@@ -30,6 +30,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Data\Key.OPENSSH.ED25519.Encrypted.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ED25519.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.RSA.Encrypted.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.RSA.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA.Encrypted.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA384.Encrypted.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA521.Encrypted.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA384.txt" />
+    <EmbeddedResource Include="Data\Key.OPENSSH.ECDSA521.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />    
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
     <PackageReference Include="MSTest.TestFramework">
