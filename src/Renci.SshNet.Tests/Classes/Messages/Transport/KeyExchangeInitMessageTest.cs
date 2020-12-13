@@ -30,8 +30,8 @@ namespace Renci.SshNet.Tests.Classes.Messages.Transport
             Assert.IsTrue(m.KeyExchangeAlgorithms.SequenceEqual(new[] { "ecdh-sha2-nistp256", "ecdh-sha2-nistp384", "ecdh-sha2-nistp521", "diffie-hellman-group-exchange-sha256", "diffie-hellman-group-exchange-sha1", "diffie-hellman-group14-sha1", "diffie-hellman-group1-sha1" }));
             Assert.IsTrue(m.LanguagesClientToServer.SequenceEqual(new[] { "" }));
             Assert.IsTrue(m.LanguagesServerToClient.SequenceEqual(new[] { "" }));
-            Assert.IsTrue(m.MacAlgorithmsClientToServer.SequenceEqual(new[] { "hmac-md5", "hmac-sha1", "umac-64@openssh.com", "hmac-sha2-256", "hmac-sha2-256-96", "hmac-sha2-512", "hmac-sha2-512-96", "hmac-ripemd160", "hmac-ripemd160@openssh.com", "hmac-sha1-96", "hmac-md5-96" }));
-            Assert.IsTrue(m.MacAlgorithmsServerToClient.SequenceEqual(new[] { "hmac-md5", "hmac-sha1", "umac-64@openssh.com", "hmac-sha2-256", "hmac-sha2-256-96", "hmac-sha2-512", "hmac-sha2-512-96", "hmac-ripemd160", "hmac-ripemd160@openssh.com", "hmac-sha1-96", "hmac-md5-96" }));
+            Assert.IsTrue(m.MacAlgorithmsClientToServer.SequenceEqual(new[] { "hmac-md5", "hmac-sha1", "umac-64@openssh.com", "hmac-sha2-256", "hmac-sha2-256-96", "hmac-sha2-512", "hmac-sha2-512-96", "hmac-sha1-96", "hmac-md5-96" }));
+            Assert.IsTrue(m.MacAlgorithmsServerToClient.SequenceEqual(new[] { "hmac-md5", "hmac-sha1", "umac-64@openssh.com", "hmac-sha2-256", "hmac-sha2-256-96", "hmac-sha2-512", "hmac-sha2-512-96", "hmac-sha1-96", "hmac-md5-96" }));
             Assert.IsTrue(m.ServerHostKeyAlgorithms.SequenceEqual(new[] { "ssh-rsa", "ssh-dss", "ecdsa-sha2-nistp256" }));
         }
 
