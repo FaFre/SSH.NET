@@ -1,5 +1,8 @@
 ﻿SSH.NET
 =======
+
+## This is a experimental fork of SSH.NET, targeting .NET 5.0
+
 SSH.NET is a Secure Shell (SSH-2) library for .NET, optimized for parallelism.
 
 [![Version](https://img.shields.io/nuget/vpre/SSH.NET.svg)](https://www.nuget.org/packages/SSH.NET)
